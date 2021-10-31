@@ -1,0 +1,3 @@
+### Amazon-Review-Prediction
+
+The goal of this project is to build a recommender system based on Amazon music review dataset. In the implementation, review texts will be used to train a BERT model. The model is constructed within the framework of `PyTorch` and `Transformers`. The model ends up with a score of 0.51759 on Kaggle. Further improvements to my model could be considering larger sequence size, incorporating the information of time, or combining the review text with the rating scores.
